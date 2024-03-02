@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import { Button, Image, StyleSheet, Text, TextInput, View } from "react-native"
+import { useState } from "react"
+import { Button, Image, StyleSheet, Text, View } from "react-native"
 
 
 const style = StyleSheet.create({
@@ -23,7 +23,6 @@ const User = () =>{
             <Text>Hi! User This is Me. {name}</Text>
             <Image source={require('../images/attest.jpg')} style={style.container}/>
             <Button title="Warning is Here" onPress={clicked} />
-            <TextInput placeholder="Enter Your Name" />
         </View>
     )
 }
