@@ -1,6 +1,5 @@
 import { StyleSheet, View } from "react-native";
 import { SliderBox } from "react-native-image-slider-box";
-import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const style = StyleSheet.create({
     main: {
@@ -21,6 +20,8 @@ const Screen1 = () => {
     return (
         <View style={style.main}>
             <View>
+
+                {/* Creating SLider */}
                 <SliderBox
                     images={images}
                     dotColor="red"
