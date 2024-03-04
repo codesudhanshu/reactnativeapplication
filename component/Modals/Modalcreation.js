@@ -41,7 +41,9 @@ const Modalcreation = () =>{
                }
             </View>
             <View>
-            <Button title="Modal Is Here" style={style.button} onPress={showmodals}/>
+           <View style={style.button} >
+           <Button title="Modal Is Here" onPress={showmodals}/>
+           </View>
             </View>
         </View>
     )

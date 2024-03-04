@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Button, ScrollView, StyleSheet, Text, View, StatusBar} from 'react-native';
-import User from './component/User';
-import Form from './component/From';
-import Loader from './component/ActivityIndicator/Loader';
-import Modalcreation from './component/Modals/Modalcreation';
+// import User from './component/User';
+// import Form from './component/From';
+// import Loader from './component/ActivityIndicator/Loader';
+// import Modalcreation from './component/Modals/Modalcreation';
+import Screen1 from './component/ImageSlider/Screen1';
 
 export default function App() {
   const [num, setnum] = useState(0) 
@@ -18,7 +19,8 @@ export default function App() {
         <User />
         <Form />
         <Loader /> */}
-        <Modalcreation />
+        {/* <Modalcreation /> */}
+        <Screen1 />
       </View>
     </ScrollView>
   );
