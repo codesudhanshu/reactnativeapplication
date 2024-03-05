@@ -4,7 +4,7 @@ import { View } from "react-native"
 const Page2 = () =>{
     return(
         <View>
-            <Text>This is Page 1</Text>
+            <Text>This is Login Page </Text>
         </View>
     )
 }

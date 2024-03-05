@@ -4,7 +4,7 @@ import { View } from "react-native"
 const Page3 = () =>{
     return(
         <View>
-            <Text>This is Page 1</Text>
+            <Text>This is SignupPage</Text>
         </View>
     )
 }
